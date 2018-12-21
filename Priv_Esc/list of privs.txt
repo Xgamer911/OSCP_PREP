@@ -1,0 +1,5 @@
+EveryonePrivs - This was exercise 11.2.1 in the workbook. Finding and using incorrect file and service permissions
+	wmic service get name,displayname,pathname,startmode |findstr /i "Auto" |findstr /i /v "C:\Windows\\" |findstr /i /v """
+	-This will find any file is left in such a state that the Everyone Windows group has full read and write access to the file. 
+	-You can then create a .c file to create and modify a user to login as, once that file is run.
+	i686-w64-mingw32-gcc -o scsiaccess.exe useradd.c
