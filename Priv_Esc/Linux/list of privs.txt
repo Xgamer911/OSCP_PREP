@@ -1,0 +1,5 @@
+basic_linux_priv_esc - http://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
+
+LinEnum - http://www.rebootuser.com/?p=1758
+
+LinuxPrivChecker - http://www.securitysift.com/download/linuxprivchecker.py
