@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "domain localdomain" > /etc/resolv.conf
+echo "search localdomain" >> /etc/resolv.conf
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+

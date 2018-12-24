@@ -1,0 +1,3 @@
+cp ~/fixdns /usr/bin/
+
+alias fd='/usr/bin/fixdns'
